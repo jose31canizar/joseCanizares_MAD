@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="San_Diego" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="CuK-uG-iEt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="San Diego" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QaO-zx-hNq">
+                                <rect key="frame" x="75" y="20" width="224" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="83" id="nNy-bM-jMk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="38"/>
+                                <color key="textColor" red="0.99125522375106812" green="0.99628156423568726" blue="0.99603790044784546" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLw-Bl-j1E">
+                                <rect key="frame" x="292" y="295" width="83" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="t8X-s1-FTW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AlNile-Bold" family="Al Nile" pointSize="48"/>
+                                <state key="normal" title="&gt;&gt;">
+                                    <color key="titleColor" red="0.99125522375106812" green="0.99628156423568726" blue="0.99603790044784546" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mi0-mH-OId"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sw0-fQ-o59">
+                                <rect key="frame" x="0.0" y="295" width="83" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="5ao-o6-goV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AlNile" family="Al Nile" pointSize="48"/>
+                                <state key="normal" title="&lt;&lt;">
+                                    <color key="titleColor" red="0.99125522375106812" green="0.99628156423568726" blue="0.99603790044784546" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="previousButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GIw-OV-bbN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="explore." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gM2-gq-LvI">
+                                <rect key="frame" x="-1" y="156" width="375" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="prU-Gz-Rnh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.90012234449386597" green="0.97249430418014526" blue="0.89595514535903931" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adventure begins here." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lVD-hX-KOi">
+                                <rect key="frame" x="0.0" y="502" width="375" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="129" id="mk2-K9-OSC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.90264469385147095" green="0.96655493974685669" blue="0.97416144609451294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lVD-hX-KOi" firstAttribute="leading" secondItem="Sw0-fQ-o59" secondAttribute="leading" id="14a-Po-b0r"/>
+                            <constraint firstItem="CuK-uG-iEt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="4QH-FC-zAT"/>
+                            <constraint firstItem="QaO-zx-hNq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="61A-GQ-caY"/>
+                            <constraint firstItem="QaO-zx-hNq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="59" id="6F4-QK-63Y"/>
+                            <constraint firstItem="pLw-Bl-j1E" firstAttribute="trailing" secondItem="CuK-uG-iEt" secondAttribute="trailing" id="83H-Jx-VF5"/>
+                            <constraint firstItem="Sw0-fQ-o59" firstAttribute="leading" secondItem="CuK-uG-iEt" secondAttribute="leading" id="9DA-EN-b2T"/>
+                            <constraint firstItem="QaO-zx-hNq" firstAttribute="centerX" secondItem="CuK-uG-iEt" secondAttribute="centerX" id="Aza-bw-UEY"/>
+                            <constraint firstItem="lVD-hX-KOi" firstAttribute="trailing" secondItem="pLw-Bl-j1E" secondAttribute="trailing" id="GGR-1d-dUl"/>
+                            <constraint firstItem="Sw0-fQ-o59" firstAttribute="baseline" secondItem="pLw-Bl-j1E" secondAttribute="firstBaseline" id="IPJ-Ph-VfY"/>
+                            <constraint firstItem="CuK-uG-iEt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MgJ-De-qEN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lVD-hX-KOi" secondAttribute="bottom" constant="36" id="QZN-aD-enT"/>
+                            <constraint firstItem="gM2-gq-LvI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-17" id="TXJ-4S-Y6p"/>
+                            <constraint firstItem="Sw0-fQ-o59" firstAttribute="top" secondItem="pLw-Bl-j1E" secondAttribute="top" id="Tuh-0f-dOf"/>
+                            <constraint firstAttribute="trailing" secondItem="CuK-uG-iEt" secondAttribute="trailing" id="VlJ-cN-z2n"/>
+                            <constraint firstItem="gM2-gq-LvI" firstAttribute="centerX" secondItem="QaO-zx-hNq" secondAttribute="centerX" id="Wrk-B9-Tmc"/>
+                            <constraint firstItem="CuK-uG-iEt" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="hSH-g3-nou"/>
+                            <constraint firstItem="Sw0-fQ-o59" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="284" id="kXQ-47-okF"/>
+                            <constraint firstItem="gM2-gq-LvI" firstAttribute="top" secondItem="QaO-zx-hNq" secondAttribute="bottom" constant="53" id="lxs-NU-DwP"/>
+                            <constraint firstItem="pLw-Bl-j1E" firstAttribute="baseline" secondItem="Sw0-fQ-o59" secondAttribute="firstBaseline" id="sWS-VY-xTs"/>
+                            <constraint firstItem="Sw0-fQ-o59" firstAttribute="centerY" secondItem="CuK-uG-iEt" secondAttribute="centerY" id="y2g-qK-96m"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="caption" destination="lVD-hX-KOi" id="9jM-6G-ya1"/>
+                        <outlet property="imageView" destination="CuK-uG-iEt" id="XtL-7W-mvS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="0" width="1204" height="1632"/>
+    </resources>
+</document>
