@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Calculator
+//  SaleCalc
 //
-//  Created by Jose Canizares on 9/26/17.
+//  Created by Jose Canizares on 10/7/17.
 //  Copyright © 2017 Jose Canizares. All rights reserved.
 //
 

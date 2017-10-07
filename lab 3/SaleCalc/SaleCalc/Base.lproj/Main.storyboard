@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sales View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SalesViewController" customModule="SaleCalc" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Nl8-v9-RcR">
+                                <rect key="frame" x="45.5" y="39.5" width="228" height="80"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lXc-Xr-RKQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="52.5" height="80"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Bill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0aO-8G-CE8">
+                                                <rect key="frame" x="0.0" y="0.0" width="52.5" height="39.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="People" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYj-8Z-x7p">
+                                                <rect key="frame" x="0.0" y="59.5" width="52.5" height="20.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="R5i-dr-DVj"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="R5i-dr-DVj"/>
+                                                    </mask>
+                                                </variation>
+                                                <variation key="heightClass=regular">
+                                                    <mask key="constraints">
+                                                        <include reference="R5i-dr-DVj"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                        <variation key="widthClass=compact" axis="vertical"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="cn0-1E-fnf">
+                                        <rect key="frame" x="92.5" y="0.0" width="135.5" height="80"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="bill" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EBD-p0-VRw">
+                                                <rect key="frame" x="0.0" y="0.0" width="135.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="number of people" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eoi-7r-0qQ">
+                                                <rect key="frame" x="0.0" y="50" width="135.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                            </textField>
+                                        </subviews>
+                                        <rect key="contentStretch" x="0.0" y="0.5" width="1" height="1"/>
+                                        <variation key="widthClass=compact" axis="vertical"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="State (sales tax)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wy5-AA-AFO">
+                                <rect key="frame" x="45" y="173.5" width="236" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFN-lS-EV2">
+                                <rect key="frame" x="191" y="127" width="269" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="JON-Ke-K2T"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="lEc-Uz-bcE"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="7I6-Kf-K29"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cfP-v0-sDd">
+                                <rect key="frame" x="70" y="275" width="347" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="net sales price: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xT-eL-Yat">
+                                <rect key="frame" x="45" y="245" width="344" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="raa-kS-4zf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wy5-AA-AFO" firstAttribute="centerX" secondItem="SFN-lS-EV2" secondAttribute="centerX" id="31H-5B-LiX">
+                                <variation key="heightClass=compact" constant="-162.5"/>
+                            </constraint>
+                            <constraint firstItem="cfP-v0-sDd" firstAttribute="top" secondItem="0xT-eL-Yat" secondAttribute="bottom" constant="7" id="CCv-Dx-4rP">
+                                <variation key="heightClass=compact" constant="8"/>
+                            </constraint>
+                            <constraint firstItem="0xT-eL-Yat" firstAttribute="trailing" secondItem="Wy5-AA-AFO" secondAttribute="trailing" id="NcT-aS-M5d">
+                                <variation key="heightClass=compact" constant="108"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="SFN-lS-EV2" secondAttribute="trailing" constant="48" id="OSK-iT-oLb">
+                                <variation key="heightClass=compact" constant="0.0"/>
+                            </constraint>
+                            <constraint firstItem="SFN-lS-EV2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="48" id="T4i-YN-C3c">
+                                <variation key="heightClass=compact" constant="171"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="0xT-eL-Yat" secondAttribute="trailing" constant="45" id="VLJ-aI-rln">
+                                <variation key="heightClass=compact" constant="71"/>
+                            </constraint>
+                            <constraint firstItem="Wy5-AA-AFO" firstAttribute="centerX" secondItem="Nl8-v9-RcR" secondAttribute="centerX" id="ayg-VT-i3p">
+                                <variation key="heightClass=compact" constant="3.5"/>
+                            </constraint>
+                            <constraint firstItem="Wy5-AA-AFO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bvw-cw-pYA">
+                                <variation key="heightClass=compact" constant="-77"/>
+                            </constraint>
+                            <constraint firstItem="SFN-lS-EV2" firstAttribute="top" secondItem="Wy5-AA-AFO" secondAttribute="bottom" constant="23" id="dXx-Th-sEq">
+                                <variation key="heightClass=compact" constant="-66.5"/>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="cfP-v0-sDd" secondAttribute="trailing" constant="43" id="h6K-e7-BBR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="cfP-v0-sDd" secondAttribute="bottom" constant="30" id="mNa-EL-lvw"/>
+                            <constraint firstItem="0xT-eL-Yat" firstAttribute="centerX" secondItem="cfP-v0-sDd" secondAttribute="centerX" id="o6j-iJ-XJl">
+                                <variation key="heightClass=compact" constant="-26.5"/>
+                            </constraint>
+                            <constraint firstItem="0xT-eL-Yat" firstAttribute="top" secondItem="SFN-lS-EV2" secondAttribute="bottom" constant="7" id="pgK-tR-gdv">
+                                <variation key="heightClass=compact" constant="6"/>
+                            </constraint>
+                            <constraint firstItem="0xT-eL-Yat" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="qPN-u1-qeA">
+                                <variation key="heightClass=compact" constant="25"/>
+                            </constraint>
+                            <constraint firstItem="Wy5-AA-AFO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="scd-dm-dLX">
+                                <variation key="heightClass=compact" constant="23.25"/>
+                            </constraint>
+                            <constraint firstItem="cfP-v0-sDd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="uq0-ya-Sey"/>
+                            <constraint firstItem="Wy5-AA-AFO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="45" id="vAC-dq-WgN">
+                                <variation key="heightClass=compact" constant="25"/>
+                            </constraint>
+                            <constraint firstItem="Wy5-AA-AFO" firstAttribute="top" secondItem="Nl8-v9-RcR" secondAttribute="bottom" constant="43" id="vxX-Dg-DoC">
+                                <variation key="heightClass=compact" constant="54"/>
+                            </constraint>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="billField" destination="EBD-p0-VRw" id="IRa-Eh-feC"/>
+                        <outlet property="numberOfPeople" destination="eoi-7r-0qQ" id="i3q-pX-s3u"/>
+                        <outlet property="resultLabel" destination="cfP-v0-sDd" id="BWD-cQ-3Ud"/>
+                        <outlet property="statePicker" destination="SFN-lS-EV2" id="H7E-xz-RtH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="122.5" y="-63.75"/>
+        </scene>
+    </scenes>
+</document>
