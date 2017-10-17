@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Haystack
 //
-//  Created by Jose Canizares on 10/4/17.
+//  Created by Jose Canizares on 10/15/17.
 //  Copyright © 2017 Jose Canizares. All rights reserved.
 //
 
@@ -15,8 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+//        let viewController : HayStackViewController = HayStackViewController()
+//        let navigationController = UINavigationController(rootViewController: viewController)
+//        
+//        self.window = UIWindow(frame: UIScreen.main.bounds)
+//        self.window?.rootViewController = navigationController
+//        self.window?.makeKeyAndVisible()
+        
         return true
+    }
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask(rawValue: UIInterfaceOrientationMask.portrait.rawValue)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

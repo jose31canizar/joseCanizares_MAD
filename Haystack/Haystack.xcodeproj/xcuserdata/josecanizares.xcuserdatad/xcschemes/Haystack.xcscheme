@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF86A9321F85D31D00434ABB"
+               BlueprintIdentifier = "DFCD40211F943F4F00A90D78"
                BuildableName = "Haystack.app"
                BlueprintName = "Haystack"
                ReferencedContainer = "container:Haystack.xcodeproj">
@@ -28,31 +28,11 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF86A9461F85D31D00434ABB"
-               BuildableName = "HaystackTests.xctest"
-               BlueprintName = "HaystackTests"
-               ReferencedContainer = "container:Haystack.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF86A9511F85D31D00434ABB"
-               BuildableName = "HaystackUITests.xctest"
-               BlueprintName = "HaystackUITests"
-               ReferencedContainer = "container:Haystack.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF86A9321F85D31D00434ABB"
+            BlueprintIdentifier = "DFCD40211F943F4F00A90D78"
             BuildableName = "Haystack.app"
             BlueprintName = "Haystack"
             ReferencedContainer = "container:Haystack.xcodeproj">
@@ -75,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF86A9321F85D31D00434ABB"
+            BlueprintIdentifier = "DFCD40211F943F4F00A90D78"
             BuildableName = "Haystack.app"
             BlueprintName = "Haystack"
             ReferencedContainer = "container:Haystack.xcodeproj">
@@ -94,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DF86A9321F85D31D00434ABB"
+            BlueprintIdentifier = "DFCD40211F943F4F00A90D78"
             BuildableName = "Haystack.app"
             BlueprintName = "Haystack"
             ReferencedContainer = "container:Haystack.xcodeproj">

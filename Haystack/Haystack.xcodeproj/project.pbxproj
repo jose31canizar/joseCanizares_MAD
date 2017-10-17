@@ -7,70 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF86A9371F85D31D00434ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86A9361F85D31D00434ABB /* AppDelegate.swift */; };
-		DF86A9391F85D31D00434ABB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86A9381F85D31D00434ABB /* ListViewController.swift */; };
-		DF86A93C1F85D31D00434ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF86A93A1F85D31D00434ABB /* Main.storyboard */; };
-		DF86A93E1F85D31D00434ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF86A93D1F85D31D00434ABB /* Assets.xcassets */; };
-		DF86A9411F85D31D00434ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF86A93F1F85D31D00434ABB /* LaunchScreen.storyboard */; };
-		DF86A94C1F85D31D00434ABB /* HaystackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86A94B1F85D31D00434ABB /* HaystackTests.swift */; };
-		DF86A9571F85D31D00434ABB /* HaystackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86A9561F85D31D00434ABB /* HaystackUITests.swift */; };
-		DF86A9671F86A14100434ABB /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86A9661F86A14100434ABB /* List.swift */; };
-		DF86A9691F86A15A00434ABB /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86A9681F86A15A00434ABB /* ListItem.swift */; };
-		DF86A96B1F86AD9600434ABB /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF86A96A1F86AD9600434ABB /* ListCell.swift */; };
+		DF0ACEE21F95D91A0078FCE5 /* AddListItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0ACEE11F95D91A0078FCE5 /* AddListItemViewController.swift */; };
+		DF5F02DE1F95457D00AC899A /* HayStackSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5F02DD1F95457D00AC899A /* HayStackSearchBar.swift */; };
+		DF69E0151F95C16C000AFE3B /* ListItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF69E0141F95C16C000AFE3B /* ListItemCollectionViewCell.swift */; };
+		DFB7FBE31F95AFE500CC84E4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB7FBE21F95AFE500CC84E4 /* ListViewController.swift */; };
+		DFCD40261F943F4F00A90D78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD40251F943F4F00A90D78 /* AppDelegate.swift */; };
+		DFCD40281F943F4F00A90D78 /* HayStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD40271F943F4F00A90D78 /* HayStackViewController.swift */; };
+		DFCD402B1F943F4F00A90D78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCD40291F943F4F00A90D78 /* Main.storyboard */; };
+		DFCD402D1F943F4F00A90D78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFCD402C1F943F4F00A90D78 /* Assets.xcassets */; };
+		DFCD40301F943F4F00A90D78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFCD402E1F943F4F00A90D78 /* LaunchScreen.storyboard */; };
+		DFCD40381F94491B00A90D78 /* HayStackCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD40371F94491B00A90D78 /* HayStackCollectionViewCell.swift */; };
+		DFCD403A1F94671C00A90D78 /* AddNewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD40391F94671C00A90D78 /* AddNewListViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DF86A9481F85D31D00434ABB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF86A92B1F85D31D00434ABB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF86A9321F85D31D00434ABB;
-			remoteInfo = Haystack;
-		};
-		DF86A9531F85D31D00434ABB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF86A92B1F85D31D00434ABB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF86A9321F85D31D00434ABB;
-			remoteInfo = Haystack;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		DF86A9331F85D31D00434ABB /* Haystack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haystack.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF86A9361F85D31D00434ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF86A9381F85D31D00434ABB /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		DF86A93B1F85D31D00434ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DF86A93D1F85D31D00434ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF86A9401F85D31D00434ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DF86A9421F85D31D00434ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF86A9471F85D31D00434ABB /* HaystackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaystackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF86A94B1F85D31D00434ABB /* HaystackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaystackTests.swift; sourceTree = "<group>"; };
-		DF86A94D1F85D31D00434ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF86A9521F85D31D00434ABB /* HaystackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaystackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF86A9561F85D31D00434ABB /* HaystackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaystackUITests.swift; sourceTree = "<group>"; };
-		DF86A9581F85D31D00434ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF86A9661F86A14100434ABB /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
-		DF86A9681F86A15A00434ABB /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
-		DF86A96A1F86AD9600434ABB /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		DF0ACEE11F95D91A0078FCE5 /* AddListItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddListItemViewController.swift; sourceTree = "<group>"; };
+		DF5F02DD1F95457D00AC899A /* HayStackSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HayStackSearchBar.swift; path = ../HayStackSearchBar.swift; sourceTree = "<group>"; };
+		DF69E0141F95C16C000AFE3B /* ListItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFB7FBE21F95AFE500CC84E4 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		DFCD40221F943F4F00A90D78 /* Haystack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haystack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCD40251F943F4F00A90D78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFCD40271F943F4F00A90D78 /* HayStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HayStackViewController.swift; sourceTree = "<group>"; };
+		DFCD402A1F943F4F00A90D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFCD402C1F943F4F00A90D78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFCD402F1F943F4F00A90D78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFCD40311F943F4F00A90D78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCD40371F94491B00A90D78 /* HayStackCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HayStackCollectionViewCell.swift; sourceTree = "<group>"; };
+		DFCD40391F94671C00A90D78 /* AddNewListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF86A9301F85D31D00434ABB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF86A9441F85D31D00434ABB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF86A94F1F85D31D00434ABB /* Frameworks */ = {
+		DFCD401F1F943F4F00A90D78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,70 +47,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF86A92A1F85D31D00434ABB = {
+		DFCD40191F943F4F00A90D78 = {
 			isa = PBXGroup;
 			children = (
-				DF86A9351F85D31D00434ABB /* Haystack */,
-				DF86A94A1F85D31D00434ABB /* HaystackTests */,
-				DF86A9551F85D31D00434ABB /* HaystackUITests */,
-				DF86A9341F85D31D00434ABB /* Products */,
+				DFCD40241F943F4F00A90D78 /* Haystack */,
+				DFCD40231F943F4F00A90D78 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF86A9341F85D31D00434ABB /* Products */ = {
+		DFCD40231F943F4F00A90D78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF86A9331F85D31D00434ABB /* Haystack.app */,
-				DF86A9471F85D31D00434ABB /* HaystackTests.xctest */,
-				DF86A9521F85D31D00434ABB /* HaystackUITests.xctest */,
+				DFCD40221F943F4F00A90D78 /* Haystack.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF86A9351F85D31D00434ABB /* Haystack */ = {
+		DFCD40241F943F4F00A90D78 /* Haystack */ = {
 			isa = PBXGroup;
 			children = (
-				DF86A9361F85D31D00434ABB /* AppDelegate.swift */,
-				DF86A9381F85D31D00434ABB /* ListViewController.swift */,
-				DF86A9661F86A14100434ABB /* List.swift */,
-				DF86A9681F86A15A00434ABB /* ListItem.swift */,
-				DF86A96A1F86AD9600434ABB /* ListCell.swift */,
-				DF86A93A1F85D31D00434ABB /* Main.storyboard */,
-				DF86A93D1F85D31D00434ABB /* Assets.xcassets */,
-				DF86A93F1F85D31D00434ABB /* LaunchScreen.storyboard */,
-				DF86A9421F85D31D00434ABB /* Info.plist */,
+				DF5F02DD1F95457D00AC899A /* HayStackSearchBar.swift */,
+				DFCD40251F943F4F00A90D78 /* AppDelegate.swift */,
+				DFCD40271F943F4F00A90D78 /* HayStackViewController.swift */,
+				DFCD40371F94491B00A90D78 /* HayStackCollectionViewCell.swift */,
+				DFCD40391F94671C00A90D78 /* AddNewListViewController.swift */,
+				DFB7FBE21F95AFE500CC84E4 /* ListViewController.swift */,
+				DF69E0141F95C16C000AFE3B /* ListItemCollectionViewCell.swift */,
+				DF0ACEE11F95D91A0078FCE5 /* AddListItemViewController.swift */,
+				DFCD40291F943F4F00A90D78 /* Main.storyboard */,
+				DFCD402C1F943F4F00A90D78 /* Assets.xcassets */,
+				DFCD402E1F943F4F00A90D78 /* LaunchScreen.storyboard */,
+				DFCD40311F943F4F00A90D78 /* Info.plist */,
 			);
 			path = Haystack;
-			sourceTree = "<group>";
-		};
-		DF86A94A1F85D31D00434ABB /* HaystackTests */ = {
-			isa = PBXGroup;
-			children = (
-				DF86A94B1F85D31D00434ABB /* HaystackTests.swift */,
-				DF86A94D1F85D31D00434ABB /* Info.plist */,
-			);
-			path = HaystackTests;
-			sourceTree = "<group>";
-		};
-		DF86A9551F85D31D00434ABB /* HaystackUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DF86A9561F85D31D00434ABB /* HaystackUITests.swift */,
-				DF86A9581F85D31D00434ABB /* Info.plist */,
-			);
-			path = HaystackUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF86A9321F85D31D00434ABB /* Haystack */ = {
+		DFCD40211F943F4F00A90D78 /* Haystack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF86A95B1F85D31D00434ABB /* Build configuration list for PBXNativeTarget "Haystack" */;
+			buildConfigurationList = DFCD40341F943F4F00A90D78 /* Build configuration list for PBXNativeTarget "Haystack" */;
 			buildPhases = (
-				DF86A92F1F85D31D00434ABB /* Sources */,
-				DF86A9301F85D31D00434ABB /* Frameworks */,
-				DF86A9311F85D31D00434ABB /* Resources */,
+				DFCD401E1F943F4F00A90D78 /* Sources */,
+				DFCD401F1F943F4F00A90D78 /* Frameworks */,
+				DFCD40201F943F4F00A90D78 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -151,75 +99,27 @@
 			);
 			name = Haystack;
 			productName = Haystack;
-			productReference = DF86A9331F85D31D00434ABB /* Haystack.app */;
+			productReference = DFCD40221F943F4F00A90D78 /* Haystack.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DF86A9461F85D31D00434ABB /* HaystackTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF86A95E1F85D31D00434ABB /* Build configuration list for PBXNativeTarget "HaystackTests" */;
-			buildPhases = (
-				DF86A9431F85D31D00434ABB /* Sources */,
-				DF86A9441F85D31D00434ABB /* Frameworks */,
-				DF86A9451F85D31D00434ABB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF86A9491F85D31D00434ABB /* PBXTargetDependency */,
-			);
-			name = HaystackTests;
-			productName = HaystackTests;
-			productReference = DF86A9471F85D31D00434ABB /* HaystackTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DF86A9511F85D31D00434ABB /* HaystackUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF86A9611F85D31D00434ABB /* Build configuration list for PBXNativeTarget "HaystackUITests" */;
-			buildPhases = (
-				DF86A94E1F85D31D00434ABB /* Sources */,
-				DF86A94F1F85D31D00434ABB /* Frameworks */,
-				DF86A9501F85D31D00434ABB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF86A9541F85D31D00434ABB /* PBXTargetDependency */,
-			);
-			name = HaystackUITests;
-			productName = HaystackUITests;
-			productReference = DF86A9521F85D31D00434ABB /* HaystackUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF86A92B1F85D31D00434ABB /* Project object */ = {
+		DFCD401A1F943F4F00A90D78 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Jose Canizares";
 				TargetAttributes = {
-					DF86A9321F85D31D00434ABB = {
+					DFCD40211F943F4F00A90D78 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = N4H238ZMS2;
 						ProvisioningStyle = Automatic;
-					};
-					DF86A9461F85D31D00434ABB = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = N4H238ZMS2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DF86A9321F85D31D00434ABB;
-					};
-					DF86A9511F85D31D00434ABB = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = N4H238ZMS2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DF86A9321F85D31D00434ABB;
 					};
 				};
 			};
-			buildConfigurationList = DF86A92E1F85D31D00434ABB /* Build configuration list for PBXProject "Haystack" */;
+			buildConfigurationList = DFCD401D1F943F4F00A90D78 /* Build configuration list for PBXProject "Haystack" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -227,102 +127,60 @@
 				en,
 				Base,
 			);
-			mainGroup = DF86A92A1F85D31D00434ABB;
-			productRefGroup = DF86A9341F85D31D00434ABB /* Products */;
+			mainGroup = DFCD40191F943F4F00A90D78;
+			productRefGroup = DFCD40231F943F4F00A90D78 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF86A9321F85D31D00434ABB /* Haystack */,
-				DF86A9461F85D31D00434ABB /* HaystackTests */,
-				DF86A9511F85D31D00434ABB /* HaystackUITests */,
+				DFCD40211F943F4F00A90D78 /* Haystack */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF86A9311F85D31D00434ABB /* Resources */ = {
+		DFCD40201F943F4F00A90D78 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF86A9411F85D31D00434ABB /* LaunchScreen.storyboard in Resources */,
-				DF86A93E1F85D31D00434ABB /* Assets.xcassets in Resources */,
-				DF86A93C1F85D31D00434ABB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF86A9451F85D31D00434ABB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF86A9501F85D31D00434ABB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DFCD40301F943F4F00A90D78 /* LaunchScreen.storyboard in Resources */,
+				DFCD402D1F943F4F00A90D78 /* Assets.xcassets in Resources */,
+				DFCD402B1F943F4F00A90D78 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF86A92F1F85D31D00434ABB /* Sources */ = {
+		DFCD401E1F943F4F00A90D78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF86A9691F86A15A00434ABB /* ListItem.swift in Sources */,
-				DF86A9391F85D31D00434ABB /* ListViewController.swift in Sources */,
-				DF86A9671F86A14100434ABB /* List.swift in Sources */,
-				DF86A96B1F86AD9600434ABB /* ListCell.swift in Sources */,
-				DF86A9371F85D31D00434ABB /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF86A9431F85D31D00434ABB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF86A94C1F85D31D00434ABB /* HaystackTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF86A94E1F85D31D00434ABB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF86A9571F85D31D00434ABB /* HaystackUITests.swift in Sources */,
+				DF69E0151F95C16C000AFE3B /* ListItemCollectionViewCell.swift in Sources */,
+				DFCD403A1F94671C00A90D78 /* AddNewListViewController.swift in Sources */,
+				DF5F02DE1F95457D00AC899A /* HayStackSearchBar.swift in Sources */,
+				DFB7FBE31F95AFE500CC84E4 /* ListViewController.swift in Sources */,
+				DFCD40281F943F4F00A90D78 /* HayStackViewController.swift in Sources */,
+				DF0ACEE21F95D91A0078FCE5 /* AddListItemViewController.swift in Sources */,
+				DFCD40261F943F4F00A90D78 /* AppDelegate.swift in Sources */,
+				DFCD40381F94491B00A90D78 /* HayStackCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		DF86A9491F85D31D00434ABB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DF86A9321F85D31D00434ABB /* Haystack */;
-			targetProxy = DF86A9481F85D31D00434ABB /* PBXContainerItemProxy */;
-		};
-		DF86A9541F85D31D00434ABB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DF86A9321F85D31D00434ABB /* Haystack */;
-			targetProxy = DF86A9531F85D31D00434ABB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		DF86A93A1F85D31D00434ABB /* Main.storyboard */ = {
+		DFCD40291F943F4F00A90D78 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF86A93B1F85D31D00434ABB /* Base */,
+				DFCD402A1F943F4F00A90D78 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DF86A93F1F85D31D00434ABB /* LaunchScreen.storyboard */ = {
+		DFCD402E1F943F4F00A90D78 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF86A9401F85D31D00434ABB /* Base */,
+				DFCD402F1F943F4F00A90D78 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -330,7 +188,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DF86A9591F85D31D00434ABB /* Debug */ = {
+		DFCD40321F943F4F00A90D78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		DF86A95A1F85D31D00434ABB /* Release */ = {
+		DFCD40331F943F4F00A90D78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -423,7 +281,7 @@
 			};
 			name = Release;
 		};
-		DF86A95C1F85D31D00434ABB /* Debug */ = {
+		DFCD40351F943F4F00A90D78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -436,7 +294,7 @@
 			};
 			name = Debug;
 		};
-		DF86A95D1F85D31D00434ABB /* Release */ = {
+		DFCD40361F943F4F00A90D78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -446,104 +304,31 @@
 				PRODUCT_BUNDLE_IDENTIFIER = josecanizares.Haystack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		DF86A95F1F85D31D00434ABB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = N4H238ZMS2;
-				INFOPLIST_FILE = HaystackTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = josecanizares.HaystackTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haystack.app/Haystack";
-			};
-			name = Debug;
-		};
-		DF86A9601F85D31D00434ABB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = N4H238ZMS2;
-				INFOPLIST_FILE = HaystackTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = josecanizares.HaystackTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haystack.app/Haystack";
-			};
-			name = Release;
-		};
-		DF86A9621F85D31D00434ABB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = N4H238ZMS2;
-				INFOPLIST_FILE = HaystackUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = josecanizares.HaystackUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Haystack;
-			};
-			name = Debug;
-		};
-		DF86A9631F85D31D00434ABB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = N4H238ZMS2;
-				INFOPLIST_FILE = HaystackUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = josecanizares.HaystackUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = Haystack;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF86A92E1F85D31D00434ABB /* Build configuration list for PBXProject "Haystack" */ = {
+		DFCD401D1F943F4F00A90D78 /* Build configuration list for PBXProject "Haystack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF86A9591F85D31D00434ABB /* Debug */,
-				DF86A95A1F85D31D00434ABB /* Release */,
+				DFCD40321F943F4F00A90D78 /* Debug */,
+				DFCD40331F943F4F00A90D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF86A95B1F85D31D00434ABB /* Build configuration list for PBXNativeTarget "Haystack" */ = {
+		DFCD40341F943F4F00A90D78 /* Build configuration list for PBXNativeTarget "Haystack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF86A95C1F85D31D00434ABB /* Debug */,
-				DF86A95D1F85D31D00434ABB /* Release */,
+				DFCD40351F943F4F00A90D78 /* Debug */,
+				DFCD40361F943F4F00A90D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		DF86A95E1F85D31D00434ABB /* Build configuration list for PBXNativeTarget "HaystackTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF86A95F1F85D31D00434ABB /* Debug */,
-				DF86A9601F85D31D00434ABB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		DF86A9611F85D31D00434ABB /* Build configuration list for PBXNativeTarget "HaystackUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF86A9621F85D31D00434ABB /* Debug */,
-				DF86A9631F85D31D00434ABB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF86A92B1F85D31D00434ABB /* Project object */;
+	rootObject = DFCD401A1F943F4F00A90D78 /* Project object */;
 }

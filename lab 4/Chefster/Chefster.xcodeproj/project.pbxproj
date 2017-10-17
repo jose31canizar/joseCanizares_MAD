@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF5759191F8D5F740089B64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5759181F8D5F740089B64A /* AppDelegate.swift */; };
+		DF57591B1F8D5F740089B64A /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57591A1F8D5F740089B64A /* RecipeViewController.swift */; };
+		DF57591E1F8D5F740089B64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF57591C1F8D5F740089B64A /* Main.storyboard */; };
+		DF5759201F8D5F740089B64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF57591F1F8D5F740089B64A /* Assets.xcassets */; };
+		DF5759231F8D5F740089B64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5759211F8D5F740089B64A /* LaunchScreen.storyboard */; };
+		DF57592B1F8D61370089B64A /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57592A1F8D61370089B64A /* IngredientTableViewCell.swift */; };
+		DFCA5D6B1F8FF65300747218 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA5D6A1F8FF65300747218 /* Ingredient.swift */; };
+		DFCA5D6D1F8FF87300747218 /* EditIngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA5D6C1F8FF87300747218 /* EditIngredientViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF5759151F8D5F740089B64A /* Chefster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chefster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5759181F8D5F740089B64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF57591A1F8D5F740089B64A /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		DF57591D1F8D5F740089B64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF57591F1F8D5F740089B64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF5759221F8D5F740089B64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF5759241F8D5F740089B64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF57592A1F8D61370089B64A /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IngredientTableViewCell.swift; path = ../IngredientTableViewCell.swift; sourceTree = "<group>"; };
+		DFCA5D6A1F8FF65300747218 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		DFCA5D6C1F8FF87300747218 /* EditIngredientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditIngredientViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5759121F8D5F740089B64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF57590C1F8D5F740089B64A = {
+			isa = PBXGroup;
+			children = (
+				DF5759171F8D5F740089B64A /* Chefster */,
+				DF5759161F8D5F740089B64A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5759161F8D5F740089B64A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5759151F8D5F740089B64A /* Chefster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5759171F8D5F740089B64A /* Chefster */ = {
+			isa = PBXGroup;
+			children = (
+				DFCA5D6C1F8FF87300747218 /* EditIngredientViewController.swift */,
+				DFCA5D6A1F8FF65300747218 /* Ingredient.swift */,
+				DF57592A1F8D61370089B64A /* IngredientTableViewCell.swift */,
+				DF5759181F8D5F740089B64A /* AppDelegate.swift */,
+				DF57591A1F8D5F740089B64A /* RecipeViewController.swift */,
+				DF57591C1F8D5F740089B64A /* Main.storyboard */,
+				DF57591F1F8D5F740089B64A /* Assets.xcassets */,
+				DF5759211F8D5F740089B64A /* LaunchScreen.storyboard */,
+				DF5759241F8D5F740089B64A /* Info.plist */,
+			);
+			path = Chefster;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5759141F8D5F740089B64A /* Chefster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5759271F8D5F740089B64A /* Build configuration list for PBXNativeTarget "Chefster" */;
+			buildPhases = (
+				DF5759111F8D5F740089B64A /* Sources */,
+				DF5759121F8D5F740089B64A /* Frameworks */,
+				DF5759131F8D5F740089B64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chefster;
+			productName = Chefster;
+			productReference = DF5759151F8D5F740089B64A /* Chefster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF57590D1F8D5F740089B64A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jose Canizares";
+				TargetAttributes = {
+					DF5759141F8D5F740089B64A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = N4H238ZMS2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF5759101F8D5F740089B64A /* Build configuration list for PBXProject "Chefster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF57590C1F8D5F740089B64A;
+			productRefGroup = DF5759161F8D5F740089B64A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5759141F8D5F740089B64A /* Chefster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5759131F8D5F740089B64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5759231F8D5F740089B64A /* LaunchScreen.storyboard in Resources */,
+				DF5759201F8D5F740089B64A /* Assets.xcassets in Resources */,
+				DF57591E1F8D5F740089B64A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5759111F8D5F740089B64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCA5D6B1F8FF65300747218 /* Ingredient.swift in Sources */,
+				DFCA5D6D1F8FF87300747218 /* EditIngredientViewController.swift in Sources */,
+				DF57592B1F8D61370089B64A /* IngredientTableViewCell.swift in Sources */,
+				DF57591B1F8D5F740089B64A /* RecipeViewController.swift in Sources */,
+				DF5759191F8D5F740089B64A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF57591C1F8D5F740089B64A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF57591D1F8D5F740089B64A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5759211F8D5F740089B64A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5759221F8D5F740089B64A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF5759251F8D5F740089B64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF5759261F8D5F740089B64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5759281F8D5F740089B64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N4H238ZMS2;
+				INFOPLIST_FILE = Chefster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = josecanizares.Chefster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF5759291F8D5F740089B64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N4H238ZMS2;
+				INFOPLIST_FILE = Chefster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = josecanizares.Chefster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5759101F8D5F740089B64A /* Build configuration list for PBXProject "Chefster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5759251F8D5F740089B64A /* Debug */,
+				DF5759261F8D5F740089B64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5759271F8D5F740089B64A /* Build configuration list for PBXNativeTarget "Chefster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5759281F8D5F740089B64A /* Debug */,
+				DF5759291F8D5F740089B64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF57590D1F8D5F740089B64A /* Project object */;
+}
