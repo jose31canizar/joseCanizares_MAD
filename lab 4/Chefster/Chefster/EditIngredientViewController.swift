@@ -75,6 +75,7 @@ class EditIngredientViewController: UIViewController, UITextFieldDelegate {
             if let text = ingredientText, let c = complete, let i = index {
                 let t = Ingredient(ingredientText: text, complete: c, index: i)
                 RecipeViewController.ingredientsList.append(t)
+                print("added")
             }
         }
     }

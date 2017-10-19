@@ -11,7 +11,7 @@ import UIKit
 class RecipeViewController: UITableViewController {
     
     
-    let filename = "ingredients.plist"
+    let filename = "ingredients6.plist"
     
     func docFilePath(_ filename: String) -> String?{
         let path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.allDomainsMask, true)
@@ -22,13 +22,14 @@ class RecipeViewController: UITableViewController {
     
     @IBAction func addNewIngredient(_ sender: Any) {
         self.performSegue(withIdentifier: "add", sender: tableView)
+        self.tableView.reloadData()
     }
     
     var ingredientsList = [
                             Ingredient(ingredientText: "1/2 cup chopped yellow onion", complete: false, index: 0),
                             Ingredient(ingredientText: "2 tablespoons olive oil", complete: false, index: 1),
-                            Ingredient(ingredientText: "3 tablespoons butter, divided", complete: false, index: 2),
-                            Ingredient(ingredientText: "1 stalk celery, chopped", complete: false, index: 3),
+                            Ingredient(ingredientText: "3 tablespoons butter divided", complete: false, index: 2),
+                            Ingredient(ingredientText: "1 stalk celery chopped", complete: false, index: 3),
                             
                           ]
     
@@ -40,11 +41,11 @@ class RecipeViewController: UITableViewController {
         if FileManager.default.fileExists(atPath: filePath!){
             let path = filePath
             
-            let dataArray = NSArray(contentsOfFile: path!) as! [ingredientTuple]
-            print(dataArray)
-            print("view did load \(dataArray)")
-            for i in 1...dataArray.count - 1 {
-                ingredientsList.append(Ingredient(ingredientText: dataArray[i].ingredientText, complete: dataArray[i].complete, index: dataArray[i].index))
+            let dataArray = NSArray(contentsOfFile: path!) as! [String]
+            ingredientsList.removeAll()
+            for i in 0...dataArray.count - 1 {
+                let ingredientsTuple = dataArray[i].components(separatedBy: "|")
+                ingredientsList.append(Ingredient(ingredientText: ingredientsTuple[0], complete: Bool(ingredientsTuple[1])!, index: i))
             }
             
             self.tableView.reloadData()
@@ -62,17 +63,20 @@ class RecipeViewController: UITableViewController {
     
 
     func applicationWillResignActive(_ notification: Notification){
+        print("writing to file")
         let filePath = docFilePath(filename)
-//        let data = NSMutableArray()
         
-        var ingredientsListOfTuples = [ingredientTuple]()
+        var arrayData : [String] = [String]()
         
-        for i in 1...ingredientsList.count - 1 {
-            print("asdf")
-            ingredientsListOfTuples.append((ingredientText: ingredientsList[i].ingredientText!, complete: ingredientsList[i].complete!, index: ingredientsList[i].index!))
+        for i in 0...ingredientsList.count - 1 {
+            var string = ""
+            string.append(ingredientsList[i].ingredientText!)
+            string.append("|")
+            string.append(String(describing: ingredientsList[i].complete!))
+            arrayData.append(string)
         }
-
-        let data = NSMutableArray(array: ingredientsListOfTuples)
+        
+        let data = NSMutableArray(array: arrayData)
         //write the contents of the array to our plist file
         data.write(toFile: filePath!, atomically: true)
     }
